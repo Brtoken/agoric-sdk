@@ -28,7 +28,7 @@ export const calculateInterest = (oldDebtValue, interestRate) =>
   );
 
 /** @type {MakeDebtCalculator} */
-export const makeDebtCalculator = async debtCalculatorConfig => {
+export const makeDebtCalculator = debtCalculatorConfig => {
   const {
     calcInterestFn = calculateInterest,
     originalDebt,
