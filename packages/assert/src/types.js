@@ -163,8 +163,6 @@
  */
 
 /**
- * @callback AssertQuote
- *
  * To "declassify" and quote a substitution value used in a
  * details`...` template literal, enclose that substitution expression
  * in a call to `quote`. This states that the argument should appear quoted
@@ -198,6 +196,7 @@
  * );
  * ```
  *
+ * @callback AssertQuote
  * @param {*} payload What to declassify
  * @returns {StringablePayload} The declassified payload
  */
